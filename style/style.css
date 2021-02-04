@@ -424,6 +424,12 @@ nav{
     color: #202020;
     margin-bottom: 15px;
 }
+.left-news-h3:hover{
+	text-decoration: underline;
+}
+.left-news-h3:active{
+	opacity: 0.5;
+}
 .left-news-p{
 	font-size: 15px;
     line-height: 18px;
@@ -448,6 +454,12 @@ nav{
     line-height: 20px;
     color: #FFFFFF;
     padding: 10px 32px;
+}
+.large-news:hover{
+	box-shadow: 0 0 10px 2px lightblue;
+}
+.large-news:active{
+	opacity: 0.5;
 }
 .right-news{
 	width: 386px;
@@ -475,6 +487,12 @@ nav{
     line-height: 20px;
     color: #202020;
 }
+.right-news-p:hover{
+	text-decoration: underline;
+}
+.right-news-p:active{
+	opacity: 0.5;
+}
 .right-news-time{
 	font-size: 14px;
     line-height: 17px;
@@ -483,6 +501,15 @@ nav{
 .ucell-link{
 	display: inline-block;
 	margin-top: 30px;
+}
+.ucell-link img{
+	display: block;
+}
+.ucell-link:hover{
+	box-shadow: 0 0 10px 2px lightblue;
+}
+.ucell-link:active{
+	opacity: 0.5;
 }
 .advertisement{
 	width: 100%;
@@ -513,6 +540,24 @@ nav{
 	margin-left: 100px;
 	margin-right: 20px;
 }
+.apps img{
+	display: block;
+}
+.apps:hover{
+	box-shadow: 0 0 10px 1px blue;
+}
+.apps:active{
+	opacity: 0.5;
+}
+.apps-2 img{
+	display: block;
+}
+.apps-2:hover{
+	box-shadow: 0 0 10px 1px blue;
+}
+.apps-2:active{
+	opacity: 0.5;
+}
 footer{
 	background-color: #295093;
 	padding: 20px 0px;
@@ -537,6 +582,12 @@ footer{
     line-height: 19px;
     color: #FFFFFF;
 }
+.footer-link:hover{
+	box-shadow: 0 0 0px 2px black;
+}
+.footer-link:active{
+	opacity: 0.5;
+}
 .footer-tg-p{
 	font-weight: 500;
     font-size: 14px;
@@ -552,6 +603,12 @@ footer{
     height: 38px;
     background: #FFFFFF;
     border-radius: 5px;
+}
+.footer-tg-link:hover{
+	box-shadow: 0 0 0px 2px black;
+}
+.footer-tg-link:active{
+	opacity: 0.5;
 }
 .footer-tg-link-p{
 	font-weight: 500;
@@ -588,6 +645,12 @@ footer{
 	line-height: 17px;
 	color: #FFFFFF;
 }
+.contackt-link:hover{
+	opacity: 0.7;
+}
+.contackt-link:active{
+	opacity: 0.5;
+}
 .sources{
 	display: flex;
 	flex-direction: column;
@@ -600,4 +663,10 @@ footer{
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
+}
+.documents:hover{
+	opacity: 0.7;
+}
+.documents:active{
+	opacity: 0.5;
 }
