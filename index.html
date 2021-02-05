@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style/min-style.css">
-	<title>namanganliklar-home-page</title>
+	<link rel="stylesheet" href="style/normalize-css.css">
+	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 	<header>
@@ -25,10 +26,10 @@
 					    <span class="ru">РУ</span>
 					</a>
 				</div>
-                <a href="#" class="tg-link">
+                <bottom class="tg-link" id="rgbtn">
                 	<img src="img/cib_telegram.svg" alt="tekegramm-icon" width="20" height="20" class="tg-icon">
                 	<span class="tg">Подписатся</span>
-                </a>
+                </bottom>
 			</div>
 			<nav>
 				<ul class="nav-list">
@@ -295,5 +296,24 @@
 			</div>
 		</div>
 	</footer>
+	<div class="dialog dialog-open">
+	    <div class="modal-window">
+	    	<button class="cencel" id="dialogbtn">&times;</button>
+	    	<h2 class="madal-window-h2">
+	    	Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:
+	        </h2>
+	        <button class="subscribe">
+	        	<img src="img/cib_telegram.svg" alt="TG-icon" width="33" height="33">
+	        	<span>Подписатся</span>
+	        </button>
+	    </div>
+	</div>
+
+	<script>
+		let dialog = document.querySelector('.dialog')
+		dialogbtn.onclick = () => {
+			dialog.classList.remove('dialog-open')
+		} 
+	</script>
 </body>
 </html>
